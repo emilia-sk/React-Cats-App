@@ -10,7 +10,7 @@ export default function Footer() {
     </div>
 
     <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
-      <a className="btn-github" href="https://github.com/emilia-sk" target="_blank">
+      <a className="btn-github" href="https://github.com/emilia-sk/React-Cats-App" target="_blank">
         <img className="github-logo" src={githubLogo}></img>
         Github
       </a>
