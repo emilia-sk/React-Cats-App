@@ -2,11 +2,11 @@ body {
     background: linear-gradient(180deg, #fcff9e 0%, #c67700 100%);
     font-family: 'Bubblegum Sans';
     font-size: 22px;
-    color: #676767;
+    color: #442a00;
 }
 
 hr {
-    border-top: 2px solid #323232;
+    border-top: 2px solid #442a00;
 }
 
 header {
@@ -29,11 +29,11 @@ header {
 
 .col-main {
     background-color: #ffffff;
-    border: 2px solid #adadad;
+    border: 2px solid #442a00;
 }
 
 .card {
-    border: 2px solid #adadad;
+    border: 2px solid #442a00;
     border-radius: 20px;
   }
   
@@ -48,19 +48,21 @@ header {
 
 .btn-card {
     padding: 12px 22px 10px 15px;
-    background-color:#676767;
+    background-color:#442a00;
     color: #ffffff;
     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s;
+    border: none !important;
+    border-radius: 20px;
 }
 
 .btn-card:hover {
-    background-color:#676767;
+    background-color:#442a00;
     color: #ffffff;
     transform: scale(1.2);
 }
 
 .btn-card:active {
-    background-color:#676767 !important;
+    background-color:#442a00 !important;
     color: #ffffff !important;
 }
 
@@ -74,19 +76,20 @@ header {
 
 .btn-modal {
     padding: 12px 12px 10px 15px;
-    background-color:#676767;
+    background-color:#442a00;
     color: #ffffff;
     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s;
+    border-radius: 20px;
 }
 
 .btn-modal:hover {
-    background-color:#676767;
+    background-color:#442a00;
     color: #ffffff;
     transform: scale(1.1);
 }
 
 .btn-modal:active {
-    background-color:#676767 !important;
+    background-color:#442a00 !important;
     color: #ffffff !important;
 }
 
@@ -99,7 +102,7 @@ footer {
 }
 
 .btn-github {
-    background-color:#676767;
+    background-color:#442a00;
     color: #ffffff;
     border-radius: 20px;
     text-decoration: none;
@@ -109,7 +112,7 @@ footer {
 }
 
 .btn-github:hover {
-    background-color:#676767;
+    background-color:#442a00;
     color: #ffffff;
 }
 
