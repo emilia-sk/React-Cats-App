@@ -23,15 +23,19 @@ export default function Card(props) {
 
               <> {/*MODAL*/}
               <Button className="btn-card" onClick={handleShow}>
-                Info
+                Read More
                 <img src={catIcon} className="btn-card-icon"></img>
               </Button>
               <Modal show={show} onHide={handleClose} size="lg">
                 <Modal.Header closeButton>
-                <h5>{props.title}</h5>
+                <div className="row">
+                  <div className="col-12 pt-3 px-3">
+                  <h3>{props.title}</h3>
+                  </div>
+                </div>
                 </Modal.Header>
                 <Modal.Body>
-                <p className="modal-text">{props.text}</p>
+                  <p className="modal-text">{props.text}</p>
                 </Modal.Body>
                 <Modal.Footer>
                 <a className="btn btn-modal" href={props.link} target="_blank">Read more at the Purina Website ❯❯</a>

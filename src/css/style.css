@@ -29,16 +29,16 @@ header {
 
 .col-main {
     background-color: #ffffff;
-    border: 2px solid #442a00;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
 }
 
 .card {
-    border: 2px solid #442a00;
-    border-radius: 20px;
+    border-radius: 50px;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.04rem rgba(0, 0, 0, 0.45);
   }
   
 .card-img-top {
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .card-header {
@@ -67,7 +67,7 @@ header {
 }
 
 .btn-card-icon {
-    height: 30px;
+    height: 25px;
     position: relative;
     left: 10px;
     bottom: 2px;
@@ -95,6 +95,12 @@ header {
 
 .modal-text {
     font-size: 20px;
+}
+
+@media (max-height: 576px) {
+    .modal-text {
+        font-size: 17px;
+    }
 }
 
 footer {

@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Maine Coon",
-        text: "The Maine Coon is a massive cat with a powerful muscular athletic body in keeping with their impressive size. They have large, pointed ears held wide and tall and an intelligent expression.The coat is long and thick and consists of an undercoat covered by a substantial glossy, waterproof top coat and have attractive tufts on ears and paws. Their tails are spectacular and should be at least as long as their body so they can wrap it around their body for extra insulation.",
+        text: "The Maine Coon is solid, rugged, and can endure a harsh climate. A distinctive characteristic of this cat is the smooth, shaggy coat. This breed is well-proportioned, has a balanced appearance, and has adapted to varied environments.",
         cardImg: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fstatic%2F6157254766001%2Fb6cb6700-c5e1-4bbe-a327-fa56adab29c7%2F913da2d6-5815-48c5-864b-f81ee3625040%2F1280x720%2Fmatch%2Fimage.jpg",
         link: "https://www.purina.co.uk/find-a-pet/cat-breeds/maine-coon",
     },
